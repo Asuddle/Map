@@ -20,3 +20,28 @@
 .App-link {
   color: #09d3ac;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+/* 
+.left-col {
+  overflow-y: scroll;
+}
+ */
+.center-col {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ddd;
+}
+
+.right-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e7e7e7;
+}
